@@ -1,0 +1,2 @@
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /t:exe /out:getEnvExitPtr.exe getEnvExitPtr.cs
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /t:exe /out:testEnvExit.exe testEnvExit.cs
