@@ -19,5 +19,7 @@ rule brc4_core {
         $hash9 = { C8 85 E9 F6 }
 
     condition:
-        any of ($hash*)
+        all of ($hash1, $hash2, $hash3)
+        or
+        all of ($hash4, $hash5, $hash6, $hash7, $hash8, $hash9)
 }
